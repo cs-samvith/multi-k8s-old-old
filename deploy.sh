@@ -14,4 +14,4 @@ kubectl apply -f k8s
 
 kubectl set image deployments/server-deployment server=samvidocker/multi-server:$SHA
 kubectl set image deployments/worker-deployment worker=samvidocker/multi-worker:$SHA
-kubectl set image deployments/client-deployment client=samvidocker/multi-client:$SHA
+kubectl set image deployments/client-deployment web=samvidocker/multi-client:$SHA
